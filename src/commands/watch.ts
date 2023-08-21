@@ -146,23 +146,7 @@ class WatchCommand {
             englishSubtitle ? `--sub-file=${subtitleUrl}` : ""
           }`
         );
-        // const mpv = spawn("mpv", [
-        //   selectedSource.url,
-        //   "--sub-file",
-        //   subtitleUrl,
-        // ]);
-        // mpv.stdout.on("data", (data) => {
-        //   console.log(`stdout: ${data}`);
-        // });
-        // mpv.stderr.on("data", (data) => {
-        //   console.error(`stderr: ${data}`);
-        // });
-        // mpv.on("error", (error) => {
-        //   console.error(`error: ${error.message}`);
-        // });
-        // mpv.on("close", (code) => {
-        //   console.log(`child process exited with code ${code}`);
-        // });
+
         console.log("Copied to clipboard 📋");
       });
 

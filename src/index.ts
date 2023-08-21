@@ -3,6 +3,7 @@ import { Command } from "commander";
 import SearchCommand from "./commands/search";
 function main() {
   const program = new Command();
+
   program.version("0.0.1");
 
   program
@@ -22,8 +23,7 @@ function main() {
       }
     );
 
-  // program;
-  // // Captures flags from cli
+  // Captures flags from cli
   program.parse(process.argv);
 }
 
