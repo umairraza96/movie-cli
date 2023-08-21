@@ -1,0 +1,21 @@
+{
+  "name": "cli",
+  "bin": {
+    "practice": "dist/index.js"
+  },
+  "version": "0.0.1",
+  "description": "",
+  "main": "src/index.ts",
+  "scripts": {
+    "link-cli": "pnpm --global unlink && pnpm --global link",
+    "dev": "tsc -w",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.5.1",
+    "typescript": "^5.1.6"
+  }
+}
