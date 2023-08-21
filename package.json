@@ -1,7 +1,7 @@
 {
   "name": "cli",
   "bin": {
-    "practice": "./dist/index.js"
+    "movie-cli": "./dist/index.js"
   },
   "version": "0.0.1",
   "description": "",
