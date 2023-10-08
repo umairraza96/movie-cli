@@ -1,5 +1,5 @@
 {
-  "name": "cli",
+  "name": "movie-cli",
   "bin": {
     "movie-cli": "./dist/index.js"
   },
@@ -7,7 +7,7 @@
   "description": "",
   "main": "src/index.ts",
   "scripts": {
-    "link-cli": "pnpm unlink --global practice && pnpm link --global practice",
+    "link-cli": "pnpm unlink --global movie-cli && pnpm link --global .",
     "dev": "tsc -w",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -23,6 +23,7 @@
     "axios": "^1.4.0",
     "clipboardy": "^3.0.0",
     "commander": "^11.0.0",
+    "movie-cli": "link:",
     "prompts": "^2.4.2"
   }
 }
