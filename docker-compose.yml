@@ -1,0 +1,18 @@
+version: "3"
+services:
+  scraper:
+    image: riimuru/consumet-api
+    env_file:
+      - .env
+    ports:
+      - 3030:3000
+  redis:
+    image: redis
+    environment:
+      - REDIS_PASSWORD=123
+    volumes:
+      - redis:/var/lib/redis/
+    ports:
+      - 6379:6379
+volumes:
+  redis:
