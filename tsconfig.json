@@ -2,9 +2,7 @@
   "display": "Node LTS",
   "_version": "18.1.0",
   "compilerOptions": {
-    "lib": [
-      "es2023"
-    ],
+    "lib": ["es2023"],
     "outDir": "dist",
     "module": "node16",
     "target": "es2022",
@@ -15,7 +13,5 @@
     "forceConsistentCasingInFileNames": true,
     "moduleResolution": "node16"
   },
-  "include": [
-    "src"
-  ]
+  "include": ["src"]
 }

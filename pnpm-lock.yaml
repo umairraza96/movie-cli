@@ -14,6 +14,9 @@ dependencies:
   commander:
     specifier: ^11.0.0
     version: 11.0.0
+  movie-cli:
+    specifier: 'link:'
+    version: 'link:'
   prompts:
     specifier: ^2.4.2
     version: 2.4.2
