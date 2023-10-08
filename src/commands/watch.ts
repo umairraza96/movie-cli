@@ -152,6 +152,7 @@ class WatchCommand {
 
       this.command.parse(process.argv);
     } catch (error) {
+      console.log("Program Stopped Unexpectedly");
       console.log(`Error: ${error}`);
     }
   }
